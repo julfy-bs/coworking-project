@@ -1,0 +1,95 @@
+.list__title-name {
+  width: 100%;
+}
+
+.list__list--vertical {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 73px;
+  justify-content: space-around;
+}
+
+.list__item--vertical:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list__item--vertical{
+  flex-flow: column wrap;
+  width: 25%;
+  margin-right: 55px;
+  border-bottom: none;
+}
+
+.list__tariff-title {
+  color: #8ad0f6;
+  padding: 68px 5%;
+  text-align: center;
+  margin-bottom: 26px;
+  border-radius: 5px;
+  max-width: 250px;
+  max-height: 153px;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;  
+  width: 250px;
+  height: 150px;
+}
+
+.tariff__image-1 {
+  background: url('../img/tariffs_image/tariff_image-1.png');
+  
+}
+
+.tariff__image-2 {
+  background: url('../img/tariffs_image/tariff_image-2.png');
+}
+
+.tariff__image-3 {
+  background: url('../img/tariffs_image/tariff_image-3.png');
+}
+
+.tariff__image-4{
+  background: url('../img/tariffs_image/tariff_image-4.png');
+  padding: 10% 5%;
+}
+
+.tariff__image-5{
+  background: url('../img/tariffs_image/tariff_image-5.png');
+  padding: 10% 5%;
+}
+
+.tariff__image-6 {
+  background: url('../img/tariffs_image/tariff_image-6.png')
+}
+
+.vip {
+  color: #cb2376;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.list__heading--vertical {
+  color: #262424;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+.list__heading-price {
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.list__info--vertical {
+  font-family: "Gotham Pro Light";
+  font-weight: 300;
+  text-align: center;
+}

@@ -1,0 +1,153 @@
+.form__wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.form {
+  background: #f4f4f4;
+  padding: 50px 5%;
+  margin-bottom: 50px;
+}
+
+.form__title {
+  color: #262424;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__row:last-child {
+  margin-bottom: 0;
+}
+
+.form__block {
+  flex: 1;
+  margin-left: 23px;
+}
+
+.form__block:first-child {
+  margin-left: 0;
+}
+
+.form__input {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 17px 9px;
+  border: 1px solid transparent;
+
+}
+
+.form__input--textarea {
+  resize: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 1px solid #cb2376;
+}
+
+.switch-controls__title {
+  margin-bottom: 10px;
+}
+
+.switch-controls__radio {
+  display: none;
+  padding-top: -4px;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: -5px;
+
+  position: relative;
+  top: -4px;
+}
+
+.switch-controls__buttons {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.switch-controls__element {
+  display: flex;
+} 
+
+.switch-controls__radio--fake {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #c8c8c8;
+  margin-right: 10px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.switch-controls__radio--fake::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  transform: translate(50%, 50%);
+  background: #cb2376;
+  height: 10px;
+  width: 10px;
+  display: block;
+  opacity: 0;
+  transform: 0.2s;
+  border-radius: 50%;
+}
+
+.switch-controls__radio:checked + .switch-controls__radio--fake::before {
+  opacity: 1;
+  transform: 0.2s;
+  transition: 0.4s;
+}
+
+.switch-controls__radio:checked ~ .switch-controls__radio--fake {
+  border: 1px solid #cb2376;
+  transition: 0.4s;
+}
+
+.switch-controls__element-title {
+  padding-right: 30%;
+}
+
+.form__buttons-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__buttons {
+  display: flex;
+  padding: 0px 30px;
+  background: #2b2b40;
+  border-radius: 5%;
+}
+
+.button {
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.form__buttons:hover {
+  background: #cb2376;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045), 0.4s;
+}

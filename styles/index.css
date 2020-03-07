@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 1200px;
+}
+/* Контейнер для рекламного баннера
+.discount__container {
+  width: 25%;
+} */
+
+.page-content__container {
+  margin: 0 auto;
+  width: 1100px;
+  position: relative;
+  display: flex;
+}
+
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content {
+  flex: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 25;
+  order: -10;
+  width: 25%; 
+}
+
+.content {
+  flex: 75;
+  justify-content: flex-end;
+  width: 75%;
+  padding-left: 20px;
+}
+

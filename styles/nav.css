@@ -1,0 +1,148 @@
+.nav__title {
+  display: inline-block;
+  color: #cb2376;
+  font-family: "Gotham Pro";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  padding-left: 35px;
+  text-align: center;
+  height: 150px;
+}
+
+.nav__title:hover {
+  color: black;
+  transition: color 0.4s;
+}
+
+.nav__title-new:hover {
+  color: #cb2376;
+  transition: color 0.4s;
+}
+
+.nav__title--active {
+  color: black;
+}
+
+.nav__title-new {
+  color: #ffffff;
+}
+
+.nav__title-new--active {
+  color: #cb2376;
+
+}
+
+.main__icon--active {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -10px -86px;
+}
+
+.main__icon--inactive {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -47px -86px;
+}
+
+.reviews__icon--active {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -10px -10px;
+}
+
+.reviews__icon--inactive {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -50px -10px;
+}
+
+.tariff__icon--active {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -50px -48px;
+}
+
+.tariff__icon--inactive {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -90px -10px;
+}
+
+.nav__main-new--active {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -84px -86px;
+  color: #cb2376;
+}
+
+.nav__reviews-new--inactive {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -10px -48px;
+}
+
+.nav__tariff-new--inactive {
+  width: 20px;
+  height: 20px;
+  background: url("../img/sprites/sprites-menu.png") no-repeat -90px -46px;
+}
+
+.container:last-child {
+  order: 200;
+}
+
+.nav__item {
+  padding: 10px 60px;
+}
+
+.nav__list--horizontal {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav__item-not-main {
+  margin-left: 95px;
+  margin-bottom: 20px;
+}
+
+.nav__item-not-main:first-child{
+  margin-left: -50px;
+}
+
+.nav__title--active:hover {
+  color: black;
+  transition: color 0.4s;
+}
+
+.nav__title-new--active:hover {
+  color: #cb2376;
+  transition: color 0.4s;
+}
+
+.nav__reviews-new--inactive:hover {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -50px -10px;
+}
+
+.nav__tariff-new--inactive:hover {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -90px -10px;
+}
+
+.main__icon--inactive:hover {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -10px -86px;
+}
+
+.tariff__icon--inactive:hover {
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprites/sprites-menu.png') no-repeat -50px -48px;
+}
+

@@ -1,0 +1,10 @@
+.banner {
+  display: flex;
+  margin-bottom: 30px;
+  background: #27273e;
+}
+
+.banner_img {
+  display: flex;
+  justify-content: center;
+}

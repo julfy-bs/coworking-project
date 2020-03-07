@@ -1,0 +1,64 @@
+.contacts__workhours {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__workhours:hover .contacts__workhours-link {
+color: #8ad0f6;
+transition: cubic-bezier(0.47,-0.29, 0.44, 1.29), 0.4s;
+}
+
+.contacts__workhours:hover .contacts__dropdown-menu {
+  top: 150%;
+  left: -50%;
+  opacity: 1;
+  transition: ease-in 0.1s;
+}
+
+.contacts__dropdown-menu {
+  position: absolute;
+  background: url("../img/dropdown-menu/dropdown-menu.png") no-repeat;
+  opacity: 0.95;
+  text-align: left;
+  padding: 10px;
+  width: 300px;
+  top: 100%;
+  margin-top: -5px;
+  opacity: 0;
+  transition: opacity .6s;
+  top: -9999px;
+  padding: 28% 20%;
+  z-index: 15;
+  width: 200px;
+  
+/* Стили нижней строки dropdown-menu */
+
+  color: #262424;
+  font-family: "Gotham Pro Light";
+  font-weight: 300;
+}
+
+.contacts__dropdown-menu:before {
+  content: "";
+  display: inline-block;
+  height: 300px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
+/* Стили верхней строки dropdown-menu */
+.dropdown-menu__workhours {
+  color: #cb2376;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.dropdown-menu__break {
+  color: #262424;
+  font-family: "Gotham Pro Light";
+  font-weight: 300;
+}

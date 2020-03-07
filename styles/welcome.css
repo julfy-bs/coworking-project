@@ -1,0 +1,47 @@
+.auth-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/greetings-background/auth.png") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome__container {
+  display: flex;
+  flex-direction: column;
+  animation: screw 1.8s infinite;
+}
+
+
+.welcome__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome__link {
+  padding: 16px 22px;
+  color: #ec1e79;
+  border: 3px solid #ec1e79;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  font-family: "Gotham Pro";
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.welcome__logo {
+  margin-bottom: 29px;
+}
+
+.welcome__link:hover {
+  background-color: #ec1e79;
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: #27273e;
+  width: 100%;
+  margin: 0px;
+  min-height: 77px;
+  
+}
+
+.footer__copyright {
+  width: 50%;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  padding-top: 20px;
+  padding-left: 19px;
+}
+
+.footer__logo {
+  align-items: flex-end;
+  width: 50%;
+  text-align: end;
+  align-items: center;
+  padding: 0;
+}
+
+.copyright_link{
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+.footer__logo-img {
+  padding-top: 20px;
+}
